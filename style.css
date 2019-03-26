@@ -1,0 +1,22 @@
+body,
+canvas {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+  /* background-image: url(./wallpaper.jpg); */
+  z-index: 1;
+}
+canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
